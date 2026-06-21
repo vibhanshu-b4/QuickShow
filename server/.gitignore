@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+server.log
+server.err.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
