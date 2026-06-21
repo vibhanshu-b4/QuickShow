@@ -10,7 +10,7 @@ import showRoutes from './routes/showRoutes.js';
 import bookingRoutes, { stripeWebhook } from './routes/bookingRoutes.js';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 await connectDB(); // Wait for DB before starting server
 
